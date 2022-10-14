@@ -1,6 +1,8 @@
-package ru.calc.model;
+package ru.calc.entity;
 
-public class Subtraction implements Operation{
+import ru.calc.entity.Operation;
+
+public class Subtraction implements Operation {
     @Override
     public double calculation(double a, double b) {
         return a-b;

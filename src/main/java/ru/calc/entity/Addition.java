@@ -1,4 +1,4 @@
-package ru.calc.model;
+package ru.calc.entity;
 
 public class Addition implements Operation {
     @Override
